@@ -81,7 +81,7 @@ body {
 
 .img1234 div {
   display: inline-block;
-  width: 23%;
+  width: 22%;
   box-sizing: border-box;
   vertical-align: top;
   font-size: initial;
@@ -90,7 +90,7 @@ body {
 }
 
 .img1234 div img {
-  width: auto;
+  width: 100%;
   height: 300px;
   border-radius: 5%;
   box-shadow: 2px 2px 20px -9px;
