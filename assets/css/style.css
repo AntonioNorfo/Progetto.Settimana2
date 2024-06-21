@@ -125,7 +125,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   width: auto;
-  height: 400px;
+  height: 600px;
 }
 .bgPreFinal {
   margin-top: 10px;
@@ -144,7 +144,7 @@ body {
   width: 100%;
 }
 .logoF {
-  width: 12%;
+  width: 10%;
   display: block;
   margin: 0 auto;
   padding: 50px;
