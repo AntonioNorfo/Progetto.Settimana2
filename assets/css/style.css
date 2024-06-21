@@ -13,7 +13,7 @@ body {
 }
 .logo {
   width: 8%;
-  padding: 6px 1px 5px 24px;
+  padding: 15px 1px 5px 24px;
 }
 .bgNav {
   background-color: #364759;
@@ -24,52 +24,55 @@ body {
 
 .list li {
   display: inline-block;
-  padding: 2px;
+  padding: 6px;
   margin: 4px;
   color: white;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
 }
 .bgMain {
   margin: 20px 15px;
+  width: auto;
 }
 .bgOrange {
   background-color: #f56601;
   color: white;
   text-align: center;
-  padding: 6px;
-  font-size: 0.8rem;
+  padding: 10px;
+  font-size: 1.2rem;
 }
 .bg1 {
   background-image: url("../img/bg-image.png");
-  width: 100%;
-  height: 195px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 200px;
   margin-top: 20px;
   text-align: center;
   color: white;
 }
 .bg1 div h1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin: 15px;
 }
 .bg1 div h2 {
-  font-size: 0.9rem;
+  font-size: 1.4rem;
 }
 .bg1 div {
   padding-top: 50px;
 }
 .bgWhite {
   background-color: white;
-  width: 100%;
+  width: auto;
   margin-top: 25px;
 }
 .bgWhite div p {
   display: inline-block;
   margin: 8px 10px;
-  font-size: 0.8rem;
-  font-weight: bold;
+  font-size: 1.4rem;
 }
 .pBlue {
   color: #125d6b;
+  font-weight: bold;
 }
 .img1234 {
   display: inline-block;
@@ -77,17 +80,17 @@ body {
 }
 
 .img1234 div {
-  display: inline-block; /* Disponi i div in linea */
-  width: 23%; /* Ogni div occupa il 33.33% della larghezza del contenitore */
+  display: inline-block;
+  width: 23%;
   box-sizing: border-box;
-  vertical-align: top; /* Allinea i div in cima */
-  font-size: initial; /* Ripristina il font-size normale */
-  padding: 0 10px; /* Aggiungi spazi tra le immagini (opzionale) */
+  vertical-align: top;
+  font-size: initial;
+  padding: 0 60px;
   padding-bottom: 20px;
 }
 
 .img1234 div img {
-  width: 100%;
+  width: auto;
   height: 300px;
   border-radius: 5%;
   box-shadow: 2px 2px 20px -9px;
@@ -100,15 +103,15 @@ body {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 400px;
+  width: auto;
+  height: 600px;
 }
 .textCentral {
-  font-size: 0.8rem;
-  font-weight: bold;
+  font-size: 1.4rem;
 }
 .textCentral div {
   text-align: center;
+  margin-top: 10px;
 }
 .textCentral div p {
   display: inline-block;
@@ -121,7 +124,7 @@ body {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
+  width: auto;
   height: 400px;
 }
 .bgPreFinal {
@@ -130,7 +133,7 @@ body {
   text-align: center;
   padding: 10px;
   font-weight: bold;
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 .bgPreFinal a {
   color: white;
